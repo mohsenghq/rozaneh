@@ -1,0 +1,38 @@
+{
+  "nodes": [
+    {
+      "id": "package",
+      "label": "package.json (Rozaneh-tab project manifest)",
+      "file_type": "code",
+      "source_file": "package.json",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "package",
+      "target": "vitest_config",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "scripts.test",
+      "weight": 1.0
+    },
+    {
+      "source": "package",
+      "target": "tsconfig",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "package.json",
+      "source_location": "scripts.check",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

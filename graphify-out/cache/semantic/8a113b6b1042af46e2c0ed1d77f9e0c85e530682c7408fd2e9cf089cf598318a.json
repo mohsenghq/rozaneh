@@ -1,0 +1,351 @@
+{
+  "nodes": [
+    {
+      "id": "reference_03_bookmark_modal_screen",
+      "label": "Bookmark Modal Screen",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_hero_heading",
+      "label": "Bookmark Feature Hero Heading (Persian, RTL)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_search_bar",
+      "label": "Search Bar with Quick-Access Icons",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_add_bookmark_button",
+      "label": "Add Bookmark Button (Plus Icon)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_import_panel",
+      "label": "Import from Browser Panel",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_import_tree",
+      "label": "Bookmark Folder Tree (Bookmark bar, My List, Other Bookmark)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_confirm_import_button",
+      "label": "Confirm Import Button (\u062a\u0627\u06cc\u06cc\u062f \u0648 \u0627\u0636\u0627\u0641\u0647 \u06a9\u0631\u062f\u0646 \u0644\u06cc\u0633\u062a)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_add_panel",
+      "label": "Add Bookmark Manually Panel",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_favicon_upload",
+      "label": "Favicon/Icon Upload Placeholder",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_title_field",
+      "label": "Link Title Input Field (\u0639\u0646\u0648\u0627\u0646 \u0644\u06cc\u0646\u06a9)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_url_field",
+      "label": "Link URL Input Field (\u0622\u062f\u0631\u0633 \u0644\u06cc\u0646\u06a9)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_suggested_sites",
+      "label": "Suggested Sites Row (Spotify, Gmail, X, Digikala, Divar, Telegram)",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_bookmark_modal_close_buttons",
+      "label": "Modal Close (X) Buttons",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "Rozaneh_tab_bookmark_feature",
+      "label": "Rozaneh Tab Bookmark Feature",
+      "file_type": "image",
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "reference_03_bookmark_modal_screen",
+      "target": "reference_03_bookmark_modal_hero_heading",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_screen",
+      "target": "reference_03_bookmark_modal_search_bar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_search_bar",
+      "target": "reference_03_bookmark_modal_add_bookmark_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_bookmark_button",
+      "target": "reference_03_bookmark_modal_import_panel",
+      "relation": "opens",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_bookmark_button",
+      "target": "reference_03_bookmark_modal_add_panel",
+      "relation": "opens",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_screen",
+      "target": "reference_03_bookmark_modal_import_panel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_import_panel",
+      "target": "reference_03_bookmark_modal_import_tree",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_import_panel",
+      "target": "reference_03_bookmark_modal_confirm_import_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_confirm_import_button",
+      "target": "reference_03_bookmark_modal_import_tree",
+      "relation": "confirms_selection_from",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_import_panel",
+      "target": "reference_03_bookmark_modal_close_buttons",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_screen",
+      "target": "reference_03_bookmark_modal_add_panel",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_panel",
+      "target": "reference_03_bookmark_modal_favicon_upload",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_panel",
+      "target": "reference_03_bookmark_modal_title_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_panel",
+      "target": "reference_03_bookmark_modal_url_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_panel",
+      "target": "reference_03_bookmark_modal_suggested_sites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_add_panel",
+      "target": "reference_03_bookmark_modal_close_buttons",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_suggested_sites",
+      "target": "reference_03_bookmark_modal_title_field",
+      "relation": "autofills",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_bookmark_modal_suggested_sites",
+      "target": "reference_03_bookmark_modal_url_field",
+      "relation": "autofills",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "Rozaneh_tab_bookmark_feature",
+      "target": "reference_03_bookmark_modal_screen",
+      "relation": "has_reference_design",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "design/reference/03-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

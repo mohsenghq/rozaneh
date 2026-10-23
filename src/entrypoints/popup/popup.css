@@ -1,0 +1,11 @@
+html,
+body {
+  min-height: 0;
+  height: auto;
+  overflow: hidden;
+}
+
+body {
+  width: 340px;
+  background: var(--bg);
+}

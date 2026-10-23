@@ -1,0 +1,40 @@
+{
+  "nodes": [
+    {
+      "id": "claude",
+      "label": "CLAUDE.md (Rozaneh Tab / Rozaneh project brief)",
+      "file_type": "document",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "rooza_reference_extension",
+      "label": "Rooza (rooza.space) reference extension build",
+      "file_type": "concept",
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null,
+      "rationale": "Rozaneh Tab/Rozaneh is explicitly built feature-for-feature parity with Rooza but under original branding and minimal-permissions constraints; local checkout at /home/mohsenghq/Documents/rooza-extension/rooza is used as ground truth for UI/markup/data when the agent is unsure how to build or style something."
+    }
+  ],
+  "edges": [
+    {
+      "source": "claude",
+      "target": "rooza_reference_extension",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

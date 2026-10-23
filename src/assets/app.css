@@ -1,0 +1,170 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("./fonts/dana-fanum-regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("./fonts/dana-fanum-medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("./fonts/dana-fanum-demibold.woff2") format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("./fonts/dana-fanum-bold.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "DanaFaNum";
+  src: url("./fonts/dana-fanum-black.woff2") format("woff2");
+  font-weight: 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RooyinFree";
+  src: url("./fonts/RooyinFree-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "RooyinFree";
+  src: url("./fonts/RooyinFree-Bold.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  color-scheme: light dark;
+  --bg: light-dark(#eceef2, #0b0b0d);
+  --surface: light-dark(#ffffff, #17171b);
+  --surface-2: light-dark(#f4f4f6, #232329);
+  --text: light-dark(#18181b, #fafafa);
+  --muted: light-dark(#5b6472, #a1a1aa);
+  --border: light-dark(rgb(24 24 27 / 0.08), rgb(255 255 255 / 0.1));
+  --shadow: light-dark(rgb(24 24 27 / 0.12), rgb(0 0 0 / 0.5));
+  --accent: light-dark(#18181b, #fafafa);
+  --holiday: light-dark(#dc2626, #f87171);
+  --gain: light-dark(#15803d, #4ade80);
+}
+
+:root[data-theme="light"] {
+  color-scheme: light;
+}
+
+:root[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-text: var(--text);
+  --color-muted: var(--muted);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --font-sans: "DanaFaNum", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "RooyinFree", "DanaFaNum", ui-sans-serif, system-ui, sans-serif;
+  --font-latin: "Inter", "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+}
+
+html {
+  font-family: var(--font-sans);
+  overflow: hidden;
+}
+
+[dir="ltr"] {
+  font-family: var(--font-latin);
+}
+
+body {
+  margin: 0;
+  min-height: 100dvh;
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font-sans);
+  font-size: 100%;
+  transition: background-color 0.25s ease, color 0.25s ease;
+  overflow: hidden;
+}
+
+[dir="ltr"] body {
+  font-family: var(--font-latin);
+}
+
+.bg-surface,
+.bg-surface-2 {
+  transition-property: background-color;
+  transition-duration: 0.25s;
+}
+
+@keyframes rise {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes pop {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes overlay-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@utility animate-rise {
+  animation: rise 0.2s ease-out backwards;
+}
+
+@utility animate-pop {
+  animation: pop 0.15s ease-out backwards;
+}
+
+@utility animate-overlay {
+  animation: overlay-in 0.2s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  ::before,
+  ::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}

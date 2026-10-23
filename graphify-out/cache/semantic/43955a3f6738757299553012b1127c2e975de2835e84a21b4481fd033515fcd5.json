@@ -1,0 +1,520 @@
+{
+  "nodes": [
+    {
+      "id": "reference_03_1_bookmark_modal_screen",
+      "label": "Add Bookmark Modal",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_title_field",
+      "label": "Title Input Field",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_address_field",
+      "label": "Address (URL) Input Field",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_icon_preview",
+      "label": "Bookmark Icon Preview Box",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_suggested_sites",
+      "label": "Suggested Sites Grid",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_confirm_button",
+      "label": "Confirm and Add Bookmark Button",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_import_browser_button",
+      "label": "Import from Browser Button",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_close_button",
+      "label": "Close (X) Button",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_persian_rtl_ui",
+      "label": "Persian RTL UI Language",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_background_dashboard",
+      "label": "Blurred Background Dashboard (Bookmarks Row, Calendar, Reminder)",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_spotify",
+      "label": "Spotify Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_gmail",
+      "label": "Gmail Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_x",
+      "label": "X (Twitter) Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_digikala",
+      "label": "Digikala Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_divar",
+      "label": "Divar Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_telegram",
+      "label": "Telegram Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_chatgpt",
+      "label": "ChatGPT Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_github",
+      "label": "Github Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_notion",
+      "label": "Notion Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_linkedin",
+      "label": "LinkedIn Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_torob",
+      "label": "Torob Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "reference_03_1_bookmark_modal_site_figma",
+      "label": "Figma Suggested Site",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    },
+    {
+      "id": "Rozaneh_tab_bookmarks_feature",
+      "label": "Rozaneh Tab Bookmarks Feature",
+      "file_type": "image",
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "source_url": null,
+      "captured_at": null,
+      "author": null,
+      "contributor": null
+    }
+  ],
+  "edges": [
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_title_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_address_field",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_icon_preview",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_suggested_sites",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_confirm_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_import_browser_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_close_button",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_persian_rtl_ui",
+      "relation": "rendered_in",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "reference_03_1_bookmark_modal_background_dashboard",
+      "relation": "overlays",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_spotify",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_gmail",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_x",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_digikala",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_divar",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_telegram",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_chatgpt",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_github",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_notion",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_linkedin",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_torob",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_suggested_sites",
+      "target": "reference_03_1_bookmark_modal_site_figma",
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_site_spotify",
+      "target": "reference_03_1_bookmark_modal_title_field",
+      "relation": "autofills_when_selected",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_address_field",
+      "target": "reference_03_1_bookmark_modal_icon_preview",
+      "relation": "determines_favicon_of",
+      "confidence": "INFERRED",
+      "confidence_score": 0.75,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_import_browser_button",
+      "target": "reference_03_1_bookmark_modal_screen",
+      "relation": "alternative_input_method_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_confirm_button",
+      "target": "reference_03_1_bookmark_modal_background_dashboard",
+      "relation": "submits_bookmark_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.65,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    },
+    {
+      "source": "reference_03_1_bookmark_modal_screen",
+      "target": "Rozaneh_tab_bookmarks_feature",
+      "relation": "design_reference_for",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "design/reference/03-1-bookmark-modal.png",
+      "source_location": null,
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": []
+}

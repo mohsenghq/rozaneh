@@ -100,9 +100,13 @@ innerHeight` at 1280×600, 1366×768, 1440×900, 1920×1080, and 961×772.
 
 ## Shortcut bar
 
-- Desktop: exactly **15 columns**, 44px tiles, labels under tiles, at most two
-  rows. Capacity is 30 items. The second row is reserved in the card height, so
-  adding the 16th item does not change the card size or cause scroll.
+- Desktop: exactly **12 columns**, 54px tiles, one row only, labels under tiles.
+  Capacity is 12 slots (11 shortcuts + the add button). The card is a fixed
+  86px tall (`SHORTCUT_CARD_H`), taller than its one-row grid slot; rows below
+  are pushed down by `SHORTCUT_ROW_EXTRA` (`rowExtra(y)` in `gridGeometry.ts`)
+  so the normal 20px gap is preserved.
+- Edit/remove controls are 24px circles with a 12px glyph; keep them at least
+  24px and fully inside the card's rounded corner on hover.
 - Narrow/stacked: `flowLayout()` computes columns from width. Rows grow with
   content; do not leave a fake empty row.
 - Tiles never shrink when a new item is added. If capacity is exceeded, older
@@ -115,9 +119,8 @@ innerHeight` at 1280×600, 1366×768, 1440×900, 1920×1080, and 961×772.
 - Label centering uses physical `left-1/2 -translate-x-1/2`, not `start-1/2`.
   In RTL, `start-1/2` resolves to the right edge and offsets the label by one
   slot.
-- Tooltips for the first row open **above** the tile; second-row tooltips open
-  below. The first-row tooltip needs extra margin so it does not collide with
-  the edit/remove buttons.
+- Tooltips open **above** the tile; the first row needs extra margin so they do
+  not collide with the edit/remove buttons.
 - The shortcut bar has its own pointer drag reorder. Keep it independent from
   the removed widget drag. It is RTL-aware and must divide pointer deltas by
   the desktop stage scale.

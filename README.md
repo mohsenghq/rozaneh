@@ -3,8 +3,22 @@ Copy from [Rooza](https://chromewebstore.google.com/detail/rooza/cclmobdmakfgnpn
 
 A light, private new-tab extension for Chrome and Firefox: analog/digital clock,
 tri-calendar (Jalali / Hijri / Gregorian), Iranian occasions, prayer times,
-weather, USD/gold prices, and a two-row shortcut bar. Persian-first RTL UI with
-an English toggle. Built with WXT, Svelte 5, TypeScript, and Tailwind CSS v4.
+weather, USD/gold prices, and a single-row shortcut bar. Persian-first RTL UI
+with an English toggle. Built with WXT, Svelte 5, TypeScript, and Tailwind CSS
+v4.
+
+## Preview
+
+<p align="center">
+  <img src="docs/media/screenshots/hero-light.png" alt="Rozaneh dashboard in Persian, light theme with a custom wallpaper" width="900">
+</p>
+<p align="center">
+  <img src="docs/media/screenshots/hero-dark.png" alt="Rozaneh dashboard in Persian, dark theme" width="430">
+  <img src="docs/media/screenshots/settings.png" alt="Rozaneh settings: city, layout, most-visited shortcuts and language" width="430">
+</p>
+
+*Screenshots use demo shortcuts, demo weather/price data and a demo wallpaper;
+no personal browsing data is shown.*
 
 Permissions: `storage` and `favicon`; optional `bookmarks` (bookmark import)
 and optional `topSites` (most-visited suggestions), both requested at runtime
@@ -19,9 +33,10 @@ geocoding endpoint; neither request includes an identifier. See
 
 ## Shortcuts
 
-The new-tab search field has been removed. The top card is a shortcut bar with
-one row by default and a second row when needed, plus add/edit/remove/drag
-support. If you enable most-visited suggestions, sites you visit often are
+The new-tab search field has been removed. The top card is a single-row
+shortcut bar of larger tiles, plus add/edit/remove/drag support. It shows at
+most 11 shortcuts and the add button; when the row is full the add button
+disappears. If you enable most-visited suggestions, sites you visit often are
 appended automatically after your manual shortcuts; they remain
 editable/removable, and a removed suggestion is remembered so it does not come
 back.

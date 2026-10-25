@@ -8,7 +8,6 @@
   import { shortLabel, type Shortcut } from "./shortcuts";
   import {
     SHORTCUT_CAPACITY,
-    SHORTCUT_DESKTOP_ROWS,
     SHORTCUT_ROW_GAP,
     SHORTCUT_ROW_PITCH,
     SHORTCUT_TILE,
@@ -47,16 +46,15 @@
   const usedCols = $derived(Math.max(1, Math.min(cols, slots)));
   const usedRows = $derived(Math.max(1, Math.ceil(slots / cols)));
   const innerW = $derived(usedCols * slot - layout.gap);
-  // Desktop always reserves two rows, so a second row never changes the card's size.
-  const innerH = $derived(flow ? gridHeight(usedRows) : gridHeight(SHORTCUT_DESKTOP_ROWS));
-  const rowOffset = $derived((innerH - gridHeight(usedRows)) / 2);
+  // Desktop shows a single row; narrow layouts grow with their content.
+  const innerH = $derived(gridHeight(usedRows));
 
   function baseX(i: number): number {
     const c = i % cols;
     return rtl ? innerW - SHORTCUT_TILE - c * slot : c * slot;
   }
   function baseY(i: number): number {
-    return rowOffset + Math.floor(i / cols) * rowStep;
+    return Math.floor(i / cols) * rowStep;
   }
 
   let autoSynced = false;
@@ -213,11 +211,11 @@
             type="button"
             onclick={() => shortcuts.remove(s.id)}
             aria-label={t("shortcuts.remove")}
-            class="absolute flex size-7 items-center justify-center rounded-full bg-text text-surface opacity-0 shadow transition group-hover:opacity-100 group-focus-within:opacity-100"
-            style:left="-10px"
-            style:top="-10px"
+            class="absolute flex size-6 items-center justify-center rounded-full bg-text text-surface opacity-0 shadow transition group-hover:opacity-100 group-focus-within:opacity-100"
+            style:left="-6px"
+            style:top="-6px"
           >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" class="size-2.5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" class="size-3">
               <path d="M6 6l12 12M18 6L6 18" stroke-linecap="round" />
             </svg>
           </button>
@@ -225,11 +223,11 @@
             type="button"
             onclick={() => (modal = { mode: "edit", shortcut: s })}
             aria-label={t("shortcuts.edit")}
-            class="absolute flex size-7 items-center justify-center rounded-full bg-text text-surface opacity-0 shadow transition group-hover:opacity-100 group-focus-within:opacity-100"
-            style:right="-10px"
-            style:top="-10px"
+            class="absolute flex size-6 items-center justify-center rounded-full bg-text text-surface opacity-0 shadow transition group-hover:opacity-100 group-focus-within:opacity-100"
+            style:right="-6px"
+            style:top="-6px"
           >
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.6" class="size-2.5">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" class="size-3">
               <path d="M4 20h4L18.5 9.5a2 2 0 0 0-2.83-2.83L5 17v3z" stroke-linejoin="round" />
             </svg>
           </button>

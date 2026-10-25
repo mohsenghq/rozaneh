@@ -1,5 +1,14 @@
 import { describe, expect, it } from "vitest";
-import { MIN_STAGE_SCALE, REF_GRID_W, refHeight, stageScale } from "./gridGeometry";
+import {
+  MIN_STAGE_SCALE,
+  REF_GAP,
+  REF_GRID_W,
+  REF_ROW_H,
+  SHORTCUT_ROW_EXTRA,
+  refHeight,
+  rowExtra,
+  stageScale,
+} from "./gridGeometry";
 
 describe("stageScale", () => {
   it("does not upscale when the reference size fits", () => {
@@ -17,5 +26,13 @@ describe("stageScale", () => {
 
   it("never goes below the minimum", () => {
     expect(stageScale({ width: 100, height: 100, rows: 7 })).toBe(MIN_STAGE_SCALE);
+  });
+
+  it("pushes rows below the shortcut bar down by the card's extra height", () => {
+    expect(SHORTCUT_ROW_EXTRA).toBeGreaterThan(0);
+    expect(rowExtra(0)).toBe(0);
+    expect(rowExtra(1)).toBe(SHORTCUT_ROW_EXTRA);
+    expect(refHeight(2)).toBe(REF_ROW_H * 2 + REF_GAP + SHORTCUT_ROW_EXTRA);
+    expect(refHeight(1)).toBe(REF_ROW_H);
   });
 });

@@ -1,13 +1,17 @@
 /** Tile and label metrics shared by the desktop and narrow layouts. */
-export const SHORTCUT_TILE = 44;
-export const SHORTCUT_LABEL_H = 18;
+export const SHORTCUT_TILE = 54;
+export const SHORTCUT_LABEL_H = 16;
 export const SHORTCUT_ROW_PITCH = SHORTCUT_TILE + SHORTCUT_LABEL_H;
 export const SHORTCUT_ROW_GAP = 10;
+/** Card padding around the tile grid (matches the card's p-2). */
+export const SHORTCUT_CARD_PAD = 8;
 
-/** Desktop: exactly this many tiles per row, and two rows reserved. */
-export const SHORTCUT_COLS = 15;
-export const SHORTCUT_DESKTOP_ROWS = 2;
+/** Desktop: one row of large tiles, never a second row. */
+export const SHORTCUT_COLS = 12;
+export const SHORTCUT_DESKTOP_ROWS = 1;
 export const SHORTCUT_CAPACITY = SHORTCUT_COLS * SHORTCUT_DESKTOP_ROWS;
+/** Total desktop card height: one tile row plus the card padding. */
+export const SHORTCUT_CARD_H = SHORTCUT_ROW_PITCH + SHORTCUT_CARD_PAD * 2;
 
 const FLOW_GAP = 12;
 
@@ -17,7 +21,7 @@ export interface ShortcutLayout {
   slot: number;
 }
 
-/** Fixed 15 columns; the gap stretches to fill the card width. */
+/** Fixed 12 columns; the gap stretches to fill the card width. */
 export function desktopLayout(width: number): ShortcutLayout {
   const gap =
     width > 0 ? Math.max(4, (width - SHORTCUT_COLS * SHORTCUT_TILE) / (SHORTCUT_COLS - 1)) : FLOW_GAP;

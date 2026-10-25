@@ -13,7 +13,7 @@ Format follows [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 - High-resolution bookmark icons resolved from the browser's local favicon store, with the site's own `/favicon.ico` as a fallback.
 
 ### Changed
-- Removed the new-tab search field; the top card is now a two-row shortcut bar.
+- Removed the new-tab search field; the top card is now a single-row shortcut bar with larger tiles and a shorter card.
 - City search now returns real cities only (no neighbourhoods, localities or mountains), deduplicates Tehran and shows the province/country.
 - The city input autofocuses when opened from the weather card.
 - The classic clock face now uses standard 60-minute ticks, 12 numerals and proportional hands.

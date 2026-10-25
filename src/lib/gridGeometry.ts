@@ -1,4 +1,5 @@
 import { GRID_COLS, type WidgetId } from "./settings";
+import { SHORTCUT_CARD_H } from "./shortcutLayout";
 
 /** The dashboard is designed at this width; smaller windows scale the whole stage. */
 export const REF_GRID_W = 976;
@@ -9,9 +10,21 @@ export const REF_COL_W = (REF_GRID_W - REF_GAP * (GRID_COLS - 1)) / GRID_COLS;
 export const STACK_BREAKPOINT = 768;
 export const MIN_STAGE_SCALE = 0.5;
 
+/**
+ * The shortcut card is taller than one grid row, so every row below it shifts
+ * down by the difference. This keeps the normal REF_GAP between the bar and the
+ * widgets underneath instead of letting the card eat into the gap.
+ */
+export const SHORTCUT_ROW_EXTRA = Math.max(0, SHORTCUT_CARD_H - REF_ROW_H);
+
+/** Extra vertical offset for rows under the shortcut bar. */
+export function rowExtra(y: number): number {
+  return y > 0 ? SHORTCUT_ROW_EXTRA : 0;
+}
+
 export function refHeight(rows: number): number {
   const r = Math.max(1, Math.ceil(rows));
-  return r * REF_ROW_H + (r - 1) * REF_GAP;
+  return r * REF_ROW_H + (r - 1) * REF_GAP + (r > 1 ? SHORTCUT_ROW_EXTRA : 0);
 }
 
 /**

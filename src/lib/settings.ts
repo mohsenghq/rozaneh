@@ -22,7 +22,7 @@ export const GRID_ROW_H = 69;
 export const GRID_GAP = 20;
 
 export const widgetSizes: Record<WidgetId, { w: number; h: number }> = {
-  shortcuts: { w: 11, h: 2 },
+  shortcuts: { w: 11, h: 1 },
   clock: { w: 2, h: 2 },
   weather: { w: 4, h: 2 },
   calendar: { w: 5, h: 5 },

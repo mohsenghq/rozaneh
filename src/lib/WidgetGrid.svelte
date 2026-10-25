@@ -10,6 +10,7 @@
     REF_ROW_H,
     STACK_BREAKPOINT,
     refHeight,
+    rowExtra,
     stackClass,
     stageScale,
   } from "./gridGeometry";
@@ -34,7 +35,7 @@
     return x * (REF_COL_W + REF_GAP);
   }
   function pxY(y: number): number {
-    return y * (REF_ROW_H + REF_GAP);
+    return y * (REF_ROW_H + REF_GAP) + rowExtra(y);
   }
   function itemW(w: number): number {
     return w * REF_COL_W + (w - 1) * REF_GAP;
